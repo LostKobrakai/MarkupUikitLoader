@@ -18,5 +18,7 @@ Configure and inject the uikit framework markup (www.getuikit.com)
 ---
 
 uikit CDN only works with default styles (yet).
+
 If you are using PW site profiles, styles/main.css might override uikit. Merge or place <!--uikit-here-CSS--> below the main.css link.
+
 The module will not minimize files for you, only load them if the .min. version is available!
