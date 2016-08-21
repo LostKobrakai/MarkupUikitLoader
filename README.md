@@ -14,7 +14,9 @@ Configure and inject the uikit framework markup (www.getuikit.com)
 ### FINAL STEPS:
 4. Place <!--uikit-here-CSS--> and <!--uikit-here-JS--> in the HTML head section
 5. Setup loading conditions.
+
 ---
+
 uikit CDN only works with default styles (yet).
 If you are using PW site profiles, styles/main.css might override uikit. Merge or place <!--uikit-here-CSS--> below the main.css link.
 The module will not minimize files for you, only load them if the .min. version is available!
